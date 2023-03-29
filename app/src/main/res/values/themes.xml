@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Theme.WallViewInstaller" parent="@style/Theme.Leanback" />
+
+    <style name="Theme.WallViewInstaller.NoTitleBar" parent="@style/Theme.Leanback">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WallViewInstaller.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WallViewInstaller.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
